@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/game.js"></script>
+<link rel="stylesheet" href="css/Untitled-3.css">
+</head>
+
+<body>
+<div class="buttom"></div>
+<div class="menulayer">
+	<p>Space  Battle</p>
+	<img src="img/2.png" id="play" onClick="game.showselcet()" class="bt"><br \>
+    <img src="img/node2256.png" id="sound" onClick="mute.doit()" class="bt">
+</div>
+
+<div class="selectlayer"></div>
+<div class="loadlayer">
+	<div id="loadmsg">
+    <p></p>
+    <img src="img/13221810.gif">
+    </div>
+</div>
+
+<div class="gamelayer">
+  <div id="scoreshow" class="show"><p></p></div>  
+  <canvas id="huabu" width="480" height="506"></canvas>
+  <div class="pause"><img onClick="paus.doit()" id="pause" src="img/Pause.png" class="bt"></div>
+</div>
+<div class="overlayer"><p>GAME OVER</p><br \>
+<img src="img/32-repeat-50.png" onClick="retry.tryit()" id="tryagain" class="bt">
+<img src="img/主页.png" onClick="game.init()" class="bt">
+</div>
+</body>
+</html>

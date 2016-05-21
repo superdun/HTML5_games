@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery-1.11.3.js"></script>
+    <script src="game.js"></script>
+    <script src="AI.js"></script>
+<title></title>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <canvas width="500" height="500" id="board"></canvas>
+	<div id="switch">
+        <P>五子棋 with AI<br> Dun <br>ver 0.001</P>
+        <input type="button" id="player" value="我先！" onclick="game.manxia()">
+        <input type="button" id="cpu" value="电脑先！" onclick="game.cpuxia()">
+    </div>
+<div id="over">
+		<p id="winneriform"></p><br>
+		<input type="button" id="again" value="再下一局!" onclick="game.init()">
+</div>
+
+
+
+</body>
+</html>

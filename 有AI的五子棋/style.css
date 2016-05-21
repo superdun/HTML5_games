@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+#switch {
+}
+div {
+	position: absolute;
+	height: 502px;
+	width: 502px;
+	left: 7px;
+	top: 10px;
+	background-color: chocolate;
+	text-align: center;
+}
+
+input {
+	font-family: "MS Serif", "New York", serif;
+	font-size: 36px;
+	position: relative;
+	top: 200px;
+	opacity:1;
+
+}
+#over{
+	height: 505px;
+	width: 503px;
+	left: 7px;
+	top: 7px;
+
+	background-color: lightslategray;
+	opacity:0.87;
+}
+p{
+	font-family: "MS Serif", "New York", serif;
+	font-size: 36px;
+	color: #fffffe;
+	position: relative;
+	top: 100px;
+}

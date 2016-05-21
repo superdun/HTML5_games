@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="jquery-1.11.3.js"></script>
+    <script src="game.js"></script>
+    <title></title>
+<style type="text/css">
+.overlayer {
+	position: absolute;
+	height: 602px;
+	width: 602px;
+	top: 9px;
+	left: 7px;
+	background-color: #999;
+}
+p {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	color: #F00;
+	top: 100px;
+	position: relative;
+	text-align: center;
+	font-weight: 900;
+}
+</style>
+</head>
+<body>
+
+<div class="gamelayer">
+    <canvas id="canvas" width="600" height="600"></canvas>
+</div>
+<div class="overlayer">
+<p id="p1">GAME OVER</p><p id="p2"wqe></p><p id="p3"></p><p><input type="button" onClick="game.init()" value="再来一次！"></p></div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+@charset "utf-8";
+.menulayer {
+	width: 480px;
+	height: 506px;
+	position: absolute;
+	left: 9px;
+	top: 10px;
+	text-align: center;
+	font-size: 36pt;
+	color: #F00;
+	font-family: "Comic Sans MS", cursive;
+	font-weight: bolder;
+	padding-top: 100px;
+}
+.loadlayer {
+	width: 480px;
+	height: 506px;
+	position: absolute;
+	left: 9px;
+	top: 10px;
+	background-color: rgba(102,102,102,0.4);
+	text-align: center;
+	padding-top: 400px;
+}
+.gamelayer {
+	width:480px;height:506px
+}
+#healthshow {
+	position: absolute;
+	left: 15px;
+	width: 151px;
+	top: 17px;
+	height: 40px;
+}
+#scoreshow{
+	position: absolute;
+	left: 319px;
+	width: 164px;
+	top: 17px;
+	height: 40px;
+	font-family: "MS Serif", "New York", serif;
+	font-size: 24px;
+	font-weight: bolder;
+	color: rgba(255,255,255,1);
+	text-align: center;
+}/* CSS Document */
+.selectlayer {
+	position: absolute;
+	height: 506px;
+	width: 480px;
+	text-align: center;
+	padding-top: 200px;
+}
+.overlayer {
+	width: 480px;
+	height: 506px;
+	position: absolute;
+	left: 9px;
+	top: 10px;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgba(204,51,0,1);
+}
+
+.selectlayer input{
+	height: 64px;
+	width: 64px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+}
+.bt:hover{
+	cursor: crosshair;
+	transform:scale(0.85)	
+}
+.buttom {
+	background-attachment: scroll;
+	background-image: url(../img/518-1310240UTD15.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 506px;
+	width: 480px;
+}
+#loadmsg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	color: rgba(255,255,255,1);
+}
+.pause {
+	position: absolute;
+	left: 224px;
+	top: 14px;
+	width: 35px;
+}
+
